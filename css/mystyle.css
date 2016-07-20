@@ -1,0 +1,66 @@
+/*_____________________________ Media queries __________________________________*/
+																								   /*_______Smartphones_______*/
+@media only screen and (max-width: 320px) {
+/*=======Styles go here=======*/
+body{
+	background: #f4f7ed;
+}
+}
+																												/*_______Tablets______*/
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+/*=======Styles go here=======*/
+body{
+	background: #dde8ca;
+}
+}
+																		    				/*_______Medium devices______*/
+@media only screen and (min-width: 481px) and (max-width: 1200px) {
+body{
+	background: #c6d8a6;
+}
+}
+/*======= ===============================================Styles go here=======*/
+
+/*____________________        C l a s s selectors ____________________________*/
+
+/*__________________________________________________navbar  header____________*/
+.inline li {
+  display: inline;
+	word-spacing: 30px;
+}
+/*_______________________________________________________/ navbar  header_____*/
+
+/*____________________________________________________________container_______*/
+.container-fluid{
+	padding-top: 12px;
+}
+.inline{
+	padding-right: 100px;
+	font-weight: bolder;
+}
+.row{
+	text-align: center;
+  display: inline-block;
+  display:inline; /* ie7 fix */
+  float: none;
+}
+.name1 {
+	color: #9cf;
+	font-size: 32px;
+}
+/*____________________________________________________________container_______*/
+
+/*______________________________________________________________ pager________*/
+
+/*_____________________________________________________________/ pager________*/
+/*___________________________________________________________footer___________*/
+footer{
+	bottom:0;
+	width:100%;
+	height:60px;   /* Height of the footer */
+	font-weight: bolder;
+	font-weight: 600;
+	background:#9cf;
+	text-align: center;
+	padding-top: 20px;
+}
