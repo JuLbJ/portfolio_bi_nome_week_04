@@ -48,6 +48,25 @@ body{
 	color: #9cf;
 	font-size: 32px;
 }
+.pager-prev-fluid li{
+	position: absolute;
+	text-align: center;
+}
+.row{
+	font-size: 18px;
+}
+.simplon{
+	color: green;
+}
+/*____________________________________________________________carousel_______*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.text{
+	font-size: 32px;
+	margin-left: 20px;
+}
+/*___________________________________________________________/ carousel_______*/
 /*____________________________________________________________container_______*/
 
 /*______________________________________________________________ pager________*/
@@ -63,4 +82,5 @@ footer{
 	background:#9cf;
 	text-align: center;
 	padding-top: 20px;
+	position: absolute;
 }
