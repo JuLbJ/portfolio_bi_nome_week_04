@@ -22,18 +22,6 @@ body{
 /*======= ===============================================Styles go here=======*/
 
 /*____________________        C l a s s selectors ____________________________*/
-html {
-   margin: 0px;
-   height: 100%;
-   width: 100%;
-}
-
-body {
-   margin: 0px;
-   min-height: 100%;
-   width: 100%;
-}
-
 
 /*__________________________________________________navbar  header____________*/
 .inline li {
@@ -94,4 +82,5 @@ footer{
 	background:#9cf;
 	text-align: center;
 	padding-top: 20px;
+	position: absolute;
 }
